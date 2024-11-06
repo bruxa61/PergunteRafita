@@ -1,0 +1,128 @@
+body {
+    font: bold 20px Arial;
+    text-align: none;
+    background: rgb(250, 240, 223);
+    padding: 0;
+    margin: 0;
+}
+
+div#border {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px; 
+    width: 16.2cm;
+    height: 22cm;
+}
+
+img {
+    position: relative;
+    align-items: center;
+    /* transform: scale(0.8); */
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: auto;
+    font-family: Roboto, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #e6bc02;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px; 
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+section {
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    width: 600px;
+    height: 235px;
+    padding: 20px;
+}
+
+input {
+    width: 21vh;
+    min-height: 5vh;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 35px;
+}
+
+#op1{
+    color: #992c2a;
+    border: 2px solid #992c2a;
+    
+}
+
+#op2{
+    color: #992c2a;
+    border: 2px solid #992c2a;
+}
+
+#buttonBox{
+    background-color: #e6bc02;
+    color: #ffffff;
+    border-color: #e6bc02;
+    border-radius: 10px;
+    height: 70px;
+    border: bisque;
+    margin-bottom: 20px; 
+}
+
+#buttonBox:hover{
+    background-color: #e0b701;
+}
+
+.ou{
+    font-family: Roboto, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    color: #d8b000;
+    font-size: 1.3em;
+    display: inline;
+    margin-bottom: 10px; /* Aumenta o espaçamento inferior */
+}
+
+div#result {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+    height: 100px;
+    overflow: hidden;
+    
+}
+
+div#result p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    margin-bottom: -5px;
+}
+
+footer{
+    color: #e21a3c;
+}
