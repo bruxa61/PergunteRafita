@@ -1,18 +1,12 @@
 body {
     font: bold 20px Arial;
-    text-align: none;
+    text-align: center; /* Centraliza todo o texto no body */
     background: rgb(250, 240, 223);
     padding: 0;
     margin: 0;
-}
-
-div#border {
-    position: relative;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px; 
-    width: 16.2cm;
-    height: 22cm;
+    display: flex; /* Habilita o Flexbox */
+    flex-direction: column; /* Alinha os itens verticalmente */
+    min-height: 100vh; /* Garante que o body ocupe a altura total da viewport */
 }
 
 img {
@@ -45,6 +39,8 @@ section {
     width: 600px;
     height: 235px;
     padding: 20px;
+    text-align: center;
+    margin: 0 auto; /* Centraliza a section horizontalmente */
 }
 
 input {
@@ -61,6 +57,8 @@ input {
     overflow: hidden;
     background-color: white;
     margin-bottom: 35px;
+    width: calc(50% - 25px);
+    box-sizing: border-box;
 }
 
 #op1{
@@ -82,6 +80,11 @@ input {
     height: 70px;
     border: bisque;
     margin-bottom: 20px; 
+    width: 100%; /* Ocupa toda a largura da section */
+    max-width: 400px;
+    margin: 10px auto; /* Centraliza o botão horizontalmente e adiciona margem superior/inferior */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Adiciona o cursor de pointer */
 }
 
 #buttonBox:hover{
@@ -96,7 +99,6 @@ input {
     color: #d8b000;
     font-size: 1.3em;
     display: inline;
-    margin-bottom: 10px; /* Aumenta o espaçamento inferior */
 }
 
 div#result {
@@ -108,7 +110,7 @@ div#result {
     padding: 2px;
     height: 100px;
     overflow: hidden;
-    
+    height: auto; /* Altura automática */
 }
 
 div#result p {
